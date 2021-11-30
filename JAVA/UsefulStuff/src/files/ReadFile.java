@@ -16,7 +16,8 @@ public class ReadFile {
         BufferedReader br = null;
         
         try{
-            file = new File("C:\\Cursos\\archivo.txt");
+            file = new File("C:\\Tutorials\\JAVA\\UsefulStuff\\src\\files\\archivo.txt");
+             
             reader = new FileReader (file);
             br = new BufferedReader(reader);
             

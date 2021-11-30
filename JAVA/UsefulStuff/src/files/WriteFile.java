@@ -17,7 +17,8 @@ public class WriteFile {
         PrintWriter pw = null;
 
         try {
-            fw = new FileWriter("C:/Cursos/archivo.txt");
+            fw = new FileWriter("C:/Tutorials/JAVA/UsefulStuff/src/files/archivo.txt");
+         
             pw = new PrintWriter(fw);
             
             for (int i = 0; i < 10; i++) {
